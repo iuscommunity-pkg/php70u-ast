@@ -9,7 +9,7 @@
 #
 # Please, preserve the changelog entries
 #
-%global gh_commit   ae55a198e64b14fd70f467476789c60ba06f61f6
+%global gh_commit   701e8539e0a861b8fe3c0144a7554c376f42efe3
 %global gh_short    %(c=%{gh_commit}; echo ${c:0:7})
 %global gh_owner    nikic
 %global gh_project  php-ast
@@ -20,7 +20,7 @@
 
 Summary:       Abstract Syntax Tree
 Name:          php-ast
-Version:       0.1.3
+Version:       0.1.4
 Release:       1%{?dist}
 License:       BSD
 Group:         Development/Languages
@@ -142,6 +142,9 @@ REPORT_EXIT_STATUS=1 \
 
 
 %changelog
+* Thu Jan 26 2017 Remi Collet <remi@fedoraproject.org> - 0.1.4-1
+- update to 0.1.4
+
 * Thu Jan 19 2017 Remi Collet <remi@fedoraproject.org> - 0.1.3-1
 - update to 0.1.3
 
